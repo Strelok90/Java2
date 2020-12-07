@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Button fx:id="ButtonEnter" layoutX="501.0" layoutY="343.0" mnemonicParsing="false" onAction="#ButtonClick" prefHeight="45.0" prefWidth="77.0" styleClass="context-menu" text="Ent" textAlignment="RIGHT">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <TextField fx:id="EnterText" layoutX="103.0" layoutY="343.0" onAction="#ButtonClick" prefHeight="45.0" prefWidth="390.0" styleClass="table-view" />
+   <TextArea fx:id="TextArena" editable="false" layoutX="103.0" layoutY="7.0" prefHeight="326.0" prefWidth="474.0" stylesheets="@DarkTheme.css">
+      <styleClass>
+         <String fx:value="background" />
+         <String fx:value="table-view" />
+      </styleClass></TextArea>
+   <TableView fx:id="tableUsers" layoutX="3.0" layoutY="6.0" prefHeight="383.0" prefWidth="93.0">
+     <columns>
+       <TableColumn fx:id="loginColumn" editable="false" maxWidth="80.0" prefWidth="85.0" text="Users" />
+     </columns>
+   </TableView>
+</AnchorPane>
