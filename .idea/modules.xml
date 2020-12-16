@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeekBrains_Java2_2020_11_23.iml" filepath="$PROJECT_DIR$/GeekBrains_Java2_2020_11_23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatClient/NetworkChatClient.iml" filepath="$PROJECT_DIR$/NetworkChatClient/NetworkChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkChatServer/NetworkChatServer.iml" filepath="$PROJECT_DIR$/NetworkChatServer/NetworkChatServer.iml" />
+    </modules>
+  </component>
+</project>
