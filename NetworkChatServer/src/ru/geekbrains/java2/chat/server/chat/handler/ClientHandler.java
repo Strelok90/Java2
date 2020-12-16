@@ -83,7 +83,7 @@ public class ClientHandler {
             System.out.println("message: " + message);
             if (message.startsWith(END_CMD)) {
                 return;
-            } if(message.startsWith(PRIVATE)){
+            } if(message.startsWith(PRIVATE)){ // Отправка личного сообщения
                 String to = message.split(" ")[1];
                 String msg = message.split(" ")[2];
                 myServer.whisperMsg(this, to, msg);

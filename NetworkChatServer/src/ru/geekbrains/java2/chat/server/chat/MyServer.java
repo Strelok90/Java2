@@ -97,7 +97,7 @@ public class MyServer {
         }
         return false;
     }
-    public void whisperMsg(ClientHandler from, String to, String msg)
+    public void whisperMsg(ClientHandler from, String to, String msg) // Отправка личного сообщения
     {
 
         for (ClientHandler client: clients) {
